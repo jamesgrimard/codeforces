@@ -1,0 +1,63 @@
+//settings
+{
+	//"color_scheme": "Mariana.sublime-color-scheme",
+	//"font_face": "Courier New",
+	"font_face": "Fira Code",
+	"font_size": 11,
+	"line_padding_top": 5,
+	"line_padding_bottom": 5,
+	"margin": 0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"scroll_speed": 1.4,
+	"ui_scale": 1.25,
+	"auto_complete": false,
+	/*"color_scheme": "Sixteen.sublime-color-scheme",*/
+	"color_scheme": "GitHub Light.sublime-color-scheme",
+}
+
+//keybinds
+[
+{ "keys": ["ctrl+down"], "command": "move_to", "args": {"to": "eol", "extend": false} },	
+{ "keys": ["ctrl+up"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+]
+
+// color theme
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+		"background": "#fffaeb",
+		"foreground": "#1d2125",
+		"comments": "#4f8c2b",
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+            "scope": "variable.other.readwrite,variable.parameter.function,meta.export.default,meta.definition.variable,entity.name.type,entity.name.type.module",
+            "foreground": "#1d2125"
+        },
+        {
+            "scope": "variable.function,entity.name.function,meta.export.default variable.other.readwrite,meta.tag.attributes variable.other.readwrite,entity.name",
+            "foreground": "#0550ae"
+        },
+        {
+            "scope": "constant,entity.name.constant,variable.other.constant,variable.other.object,variable.language,entity",
+            "foreground": "#1d2125"
+        },
+        {
+            "scope": "comment,comment.block,comment.line,comment.block.documentation,punctuation.definition.comment,meta.toc-list",
+            "foreground": "var(comments)",
+            "font_style": "bold",
+        },
+		
+	]
+}
+
