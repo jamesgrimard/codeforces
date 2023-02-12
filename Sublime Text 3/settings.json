@@ -1,0 +1,22 @@
+{
+	//"color_scheme": "Mariana.sublime-color-scheme",
+	//"font_face": "Courier New",
+	"font_face": "Fira Code",
+	"font_size": 10,
+	"line_padding_top": 4,
+	"line_padding_bottom": 4,
+	"margin": 0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"scroll_speed": 1.4,
+	"ui_scale": 1.2,
+	"auto_complete": false,
+	/*"color_scheme": "Sixteen.sublime-color-scheme",*/
+	"color_scheme": "GitHub Light.sublime-color-scheme",
+	"gtk_client_side_window_decorations": false,
+	"show_panel_on_build": false,
+}
