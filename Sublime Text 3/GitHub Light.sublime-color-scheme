@@ -1,0 +1,34 @@
+{
+	"variables":
+	{
+		"background": "#fffaeb",
+		"black": "#131619",
+		"foreground": "#1d2125",
+		"comments": "#127E01",
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+            "scope": "variable.other.readwrite,variable.parameter.function,meta.export.default,meta.definition.variable,entity.name.type,entity.name.type.module",
+            "foreground": "#1d2125"
+        },
+        {
+            "scope": "variable.function,entity.name.function,meta.export.default variable.other.readwrite,meta.tag.attributes variable.other.readwrite,entity.name",
+            "foreground": "#0550ae"
+        },
+        {
+            "scope": "constant,entity.name.constant,variable.other.constant,variable.other.object,variable.language,entity",
+            "foreground": "#1d2125"
+        },
+        {
+            "scope": "comment,comment.block,comment.line,comment.block.documentation,punctuation.definition.comment,meta.toc-list",
+            "foreground": "var(comments)",
+            //"font_style": "bold",
+            "font_style": "normal",
+        },
+		
+	]
+}
