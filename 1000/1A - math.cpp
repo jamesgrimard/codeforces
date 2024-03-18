@@ -1,4 +1,4 @@
-// github.com/jamesgrimard/codeforces
+//github.com/jamesgrimard/codeforces
 #include <bits/stdc++.h>
 
 using namespace std;
