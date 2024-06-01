@@ -1,6 +1,5 @@
 // AUTHOR: JAMES PHILIP GRIMARD
 // GITHUB: github.com/jamesgrimard/codeforces
-// PROBLEM: https://codeforces.com/problemset/problem/1893/A
 // ----------------------------------------------------------------------------
 // SOLUTION
 // ----------------------------------------------------------------------------
@@ -13,6 +12,7 @@
 #include <cmath>
 #include <cstdint>
 #include <cstring>
+#include <fstream>
 #include <functional>
 #include <iomanip>
 #include <iostream>
@@ -26,21 +26,23 @@
 using namespace std;
 
 void solve() {
-
-
+  
+  
 
 }
 
 int main() {
   ios::sync_with_stdio(false); cin.tie(0); cout.tie();
 
+  #ifndef ONLINE_JUDGE
+    ifstream inputFile("input.txt");
+    ofstream outputFile("output.txt");
+
+    cin.rdbuf(inputFile.rdbuf());
+    cout.rdbuf(outputFile.rdbuf());
+  #endif
+
   solve();
 
   return 0;
 }
-// ----------------------------------------------------------------------------
-// NOTES
-// ----------------------------------------------------------------------------
-/*
-
-*/

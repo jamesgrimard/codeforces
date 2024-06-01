@@ -2,6 +2,9 @@
 # Prerequisites
 *.d
 main.cpp
+input.txt
+output.txt
+main.exe
 
 # Compiled Object files
 *.slo
@@ -432,3 +435,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+main
